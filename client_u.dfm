@@ -1,6 +1,7 @@
 object frmMain: TfrmMain
   Left = 0
   Top = 0
+  BorderStyle = bsSingle
   Caption = 'ITerium'
   ClientHeight = 693
   ClientWidth = 1093
@@ -114,7 +115,7 @@ object frmMain: TfrmMain
     0000000000000000000000000000000000000000000000000000000000000000
     0000000000000000000000000000000000000000000000000000000000000000
     000000000000000000000000000000000000000000000000000000000000}
-  OnResize = FormResize
+  OnCreate = FormCreate
   TextHeight = 15
   object pctrlMain: TPageControl
     Left = 0
@@ -125,17 +126,13 @@ object frmMain: TfrmMain
     TabOrder = 0
     object tshtLogin: TTabSheet
       Caption = 'Login'
-      object rgrpLogin: TRadioGroup
-        Left = 432
-        Top = 56
-        Width = 185
-        Height = 105
-        Caption = 'Sign up/Login'
-        Items.Strings = (
-          'Sign up'
-          'Login')
+      object btnLogin: TButton
+        Left = 488
+        Top = 400
+        Width = 75
+        Height = 25
+        Caption = 'Login'
         TabOrder = 0
-        OnClick = rgrpLoginClick
       end
       object ledtName: TDBLabeledEdit
         Left = 456
@@ -162,34 +159,49 @@ object frmMain: TfrmMain
         TabOrder = 2
         Text = ''
       end
-      object btnLogin: TButton
-        Left = 488
-        Top = 400
-        Width = 75
-        Height = 25
-        Caption = 'Login'
+      object rgrpLogin: TRadioGroup
+        Left = 432
+        Top = 56
+        Width = 185
+        Height = 105
+        Caption = 'Sign up/Login'
+        Color = clWhite
+        Items.Strings = (
+          'Sign up'
+          'Login')
+        ParentBackground = False
+        ParentColor = False
         TabOrder = 3
+        OnClick = rgrpLoginClick
       end
     end
     object tshtProfile: TTabSheet
       Caption = 'Profile'
       ImageIndex = 1
       object pnlMarket: TPanel
-        Left = 367
-        Top = 8
+        Left = 359
+        Top = 0
         Width = 346
-        Height = 625
+        Height = 656
         BorderWidth = 10
         BorderStyle = bsSingle
         Color = clWhite
         ParentBackground = False
         TabOrder = 0
+        object grpbMarket: TGroupBox
+          Left = 8
+          Top = 8
+          Width = 336
+          Height = 633
+          Caption = 'Market place stuffies'
+          TabOrder = 0
+        end
       end
       object pnlProfile: TPanel
-        Left = 8
-        Top = 8
+        Left = 0
+        Top = 0
         Width = 353
-        Height = 625
+        Height = 656
         BorderWidth = 10
         BorderStyle = bsSingle
         Color = clWhite
@@ -197,7 +209,7 @@ object frmMain: TfrmMain
         TabOrder = 1
         object imgProfile: TImage
           Left = 104
-          Top = 72
+          Top = 40
           Width = 150
           Height = 150
           Picture.Data = {
@@ -258,7 +270,7 @@ object frmMain: TfrmMain
         end
         object lblBalance: TLabel
           Left = 144
-          Top = 228
+          Top = 220
           Width = 64
           Height = 21
           Caption = 'Balance:'
@@ -269,17 +281,33 @@ object frmMain: TfrmMain
           Font.Style = [fsBold]
           ParentFont = False
         end
+        object grpbHistory: TGroupBox
+          Left = 23
+          Top = 304
+          Width = 306
+          Height = 313
+          Caption = 'History'
+          TabOrder = 0
+        end
       end
       object pnlTrans: TPanel
-        Left = 719
-        Top = 8
+        Left = 711
+        Top = 0
         Width = 354
-        Height = 625
+        Height = 656
         BorderWidth = 10
         BorderStyle = bsSingle
         Color = clWhite
         ParentBackground = False
         TabOrder = 2
+        object grpbTrans: TGroupBox
+          Left = 16
+          Top = 8
+          Width = 321
+          Height = 641
+          Caption = 'transaction stuffies'
+          TabOrder = 0
+        end
       end
     end
   end
