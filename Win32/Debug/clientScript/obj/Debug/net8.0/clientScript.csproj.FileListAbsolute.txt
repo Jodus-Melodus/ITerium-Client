@@ -1,0 +1,15 @@
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\bin\Debug\net8.0\clientScript.exe
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\bin\Debug\net8.0\clientScript.deps.json
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\bin\Debug\net8.0\clientScript.runtimeconfig.json
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\bin\Debug\net8.0\clientScript.dll
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\bin\Debug\net8.0\clientScript.pdb
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.AssemblyInfoInputs.cache
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.AssemblyInfo.cs
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.csproj.CoreCompileInputs.cache
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.sourcelink.json
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.dll
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\refint\clientScript.dll
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.pdb
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\clientScript.genruntimeconfig.cache
+C:\Users\Philip Gricius\desktop\Programming\ITerium\client\Win32\Debug\clientScript\obj\Debug\net8.0\ref\clientScript.dll
